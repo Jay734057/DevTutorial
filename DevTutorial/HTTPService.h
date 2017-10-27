@@ -12,7 +12,7 @@ typedef void (^onComplete)(NSArray * __nullable dataDict, NSString * __nullable 
 
 @interface HTTPService : NSObject
 
-+(id) instance;
++(id _Nullable ) instance;
 
 -(void)getTutorials: (nullable onComplete) completionHandler;
 

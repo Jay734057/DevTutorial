@@ -16,6 +16,7 @@
 		4DF50C7D1FA2ABAE0064C0ED /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF50C7C1FA2ABAE0064C0ED /* UIColor+Helpers.m */; };
 		4DF50C801FA2AC360064C0ED /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF50C7F1FA2AC360064C0ED /* VideoCell.m */; };
 		4DF50C831FA2B0DA0064C0ED /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF50C821FA2B0DA0064C0ED /* Video.m */; };
+		4DF50C861FA340510064C0ED /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF50C851FA340510064C0ED /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		4DF50C7F1FA2AC360064C0ED /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		4DF50C811FA2B0DA0064C0ED /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		4DF50C821FA2B0DA0064C0ED /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		4DF50C841FA340510064C0ED /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		4DF50C851FA340510064C0ED /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 			children = (
 				4DF50C751FA1ED360064C0ED /* TutorialTableViewController.h */,
 				4DF50C761FA1ED360064C0ED /* TutorialTableViewController.m */,
+				4DF50C841FA340510064C0ED /* VideoViewController.h */,
+				4DF50C851FA340510064C0ED /* VideoViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				4DF50C5C1FA1EAC60064C0ED /* AppDelegate.m in Sources */,
 				4DF50C771FA1ED360064C0ED /* TutorialTableViewController.m in Sources */,
 				4DF50C591FA1EAC60064C0ED /* main.m in Sources */,
+				4DF50C861FA340510064C0ED /* VideoViewController.m in Sources */,
 				4DF50C831FA2B0DA0064C0ED /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Video.h"
+@class Video;
 
 @interface VideoCell : UITableViewCell
 
--(id)init;
--(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
+-(id _Nonnull )init;
+-(id _Nonnull )initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *_Nullable)reuseIdentifier;
 
 -(void)updateUI:(nonnull Video*)video;
 
